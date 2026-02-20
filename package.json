@@ -1,0 +1,10 @@
+{
+  "name": "memoria-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node apps/api/server.js",
+    "test": "node --test"
+  }
+}
