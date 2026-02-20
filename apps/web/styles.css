@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, sans-serif;
+}
+body {
+  margin: 0;
+  background: #f5f6fa;
+  color: #2d3436;
+}
+.container {
+  max-width: 820px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+h1 {
+  color: #6c5ce7;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+form {
+  display: grid;
+  gap: 12px;
+}
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #dfe6e9;
+  box-sizing: border-box;
+}
+button {
+  border: 0;
+  background: #6c5ce7;
+  color: #fff;
+  cursor: pointer;
+}
+.badge {
+  display: inline-block;
+  margin-left: 8px;
+  background: #ff6b9d;
+  color: #fff;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
